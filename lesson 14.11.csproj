@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>lesson_14._11</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LIBR">
+      <HintPath>bin\Debug\net6.0\LIBR.dll</HintPath>
+    </Reference>
+    <Reference Include="MyLibrary">
+      <HintPath>bin\Debug\net6.0\MyLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
